@@ -16,5 +16,15 @@ void kue::topping(string rasa){
 	cout<< " Rasa Kue :"<< rasa << endl;
 }
 int main (){
+	kue kuebasah, kuekering;
+	
+	kuekering.jumlkue = 150;
+	kuekering.jeniskue = "nastar";
+	kuekering.bentukkue = "kecil";
+	kuekering.hrg = "Rp 18.000 sd Rp 35.000";
+	kuebasah.jumlkue = 150;
+	kuebasah.jeniskue = "bolu";
+	kuebasah.bentukkue = "sedang";
+	kuebasah.hrg = "Rp 30.000 sd Rp 60.000";
 
 }
