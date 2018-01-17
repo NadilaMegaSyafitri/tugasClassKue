@@ -35,4 +35,21 @@ int main (){
 	
 	kuebasah.topping("original");
 
+	cout << ""<<endl;
+	
+	cout << "Kue Kering  "<<endl;
+	cout << "Jumlah Kue: "<<kuekering.jumlkue<<" kotak"<<endl;
+	cout << "Jenis Kue  : "<<kuekering.jeniskue<<endl;
+	cout << "Bentuk kue  : "<<kuekering.bentukkue<<endl;
+	cout << "Harga Kue: "<<kuekering.hrg<<" kotak"<<endl;
+	
+	kuekering.topping("coklat");
+	
+	
+	cout << " "<<endl;
+	cout << "||||||||||TOKO CAKE BJB||||||||||  "<<endl;
+	cout << "|||Nama : Nadila Mega Syafitri|||  "<<endl;
+	cout << "|||NPM  : 16-71-0043          |||"<<endl;
+	cout << "|||||---SELAMAT MENIKMATI---|||||"<<endl;
+	cout << "|||||||||||||||||||||||||||||||||"<<endl;
 }
