@@ -26,5 +26,13 @@ int main (){
 	kuebasah.jeniskue = "bolu";
 	kuebasah.bentukkue = "sedang";
 	kuebasah.hrg = "Rp 30.000 sd Rp 60.000";
+	
+	cout << "Kue Basah  "<<endl;
+	cout << "Jumlah Kue: "<<kuebasah.jumlkue<<" kotak"<<endl;
+	cout << "Jenis kue  : "<<kuebasah.jeniskue<<endl;
+	cout << "Bentuk kue  : "<<kuebasah.bentukkue<<endl;
+	cout << "Harga Kue: "<<kuebasah.hrg<<" kotak"<<endl;
+	
+	kuebasah.topping("original");
 
 }
